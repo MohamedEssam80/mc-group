@@ -36,7 +36,7 @@ body {
     height: 100%;
     min-height: 666px;
     width: 100%;
-    background: url('images/header2.jpg') !important;
+    background: url('images/header.png') !important;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     text-align: center;
@@ -65,15 +65,15 @@ body {
     height: 80%;
     min-height: 400px;
     width: 100%;
-    background: url('/images/about.jpg') !important;
+    background: url('images/about.png') !important;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     text-align: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .about-text {
-    margin-top: 150px;
+    margin-top: 100px;
     width: 80%;
     margin-left: 90px;
     font-weight: normal;
@@ -144,7 +144,7 @@ body {
     /* height: auto; */
     min-height: 400px;
     width: auto;
-    background: url('/images/footer2.png') !important;
+    background: url('images/footer-bg.png') !important;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     text-align: center;
@@ -198,4 +198,9 @@ body {
 #myBtn:hover {
     background-color: gray;
     color: white;
+}
+
+.footer-logo {
+    height: 250px;
+    width: 250px;
 }
